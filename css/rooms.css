@@ -122,9 +122,9 @@ nav {
 }
 
 .header-button {
-  margin: 120px auto 40px;
-  width: 150px;
-  height: 50px;
+  margin: 120px auto 30px;
+  width: 120px;
+  height: 40px;
   background-color: var(--primary-color);
   display: flex;
   justify-content: center;
@@ -151,6 +151,7 @@ nav {
 .scroll {
   margin: auto;
   width: 100px;
+  padding-bottom: 10px;
   text-align: center;
   font-size: 0.7rem;
   font-weight: lighter;

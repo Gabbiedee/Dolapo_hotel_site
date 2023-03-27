@@ -122,9 +122,9 @@ nav {
 }
 
 .header-button {
-  margin: 120px auto 40px;
-  width: 150px;
-  height: 50px;
+  margin: 120px auto 30px;
+  width: 120px;
+  height: 40px;
   background-color: var(--primary-color);
   display: flex;
   justify-content: center;
@@ -150,6 +150,7 @@ nav {
 
 .scroll {
   margin: auto;
+  padding-bottom: 10px;
   width: 100px;
   text-align: center;
   font-size: 0.7rem;
@@ -164,7 +165,7 @@ nav {
   padding: 20px;
 }
 
-.hotel-preview-card {
+.hotel-card {
   margin: 20px auto;
   display: flex;
   flex-direction: column;
@@ -173,21 +174,16 @@ nav {
   padding: 20px;
 }
 
-.hotel-preview-card hr {
-  margin: 10px auto;
-  width: 80%;
-  color: gray;
-  opacity: 0.7;
-}
 
 .hotel-text {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+  border-top: 2px solid gray;
 }
 
-.hotel .hotel-text p,
+.hotel-text p,
 button {
   margin-bottom: 10px;
 }
@@ -268,9 +264,6 @@ footer .socials li img {
   width: 7px;
 }
 
-/* .email {
-  display: blo;
-} */
 
 .input-email {
   display: flex;
@@ -393,21 +386,22 @@ footer .socials li img {
     margin: auto;
   }
 
-  .hotel-preview-card {
+  .hotel-card {
     flex-direction: row;
     width: 50%;
     height: 300px;
   }
 
-  .hotel-preview-card hr {
-    margin: auto 5px;
-    width: 0px;
-    height: 50%;
-    color: gray;
-    opacity: 0.7;
+  .hotel-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border-top: none;
+    border-left: 2px solid gray;
   }
 
-  .hotel-preview-card img {
+  .hotel-card img {
     width: 60%;
     height: 100%;
   }
@@ -448,7 +442,7 @@ footer .socials li img {
   footer .address li {
     line-height: 5px;
   }
-  
+
   footer .address,
   .email {
     padding-top: 30px;
